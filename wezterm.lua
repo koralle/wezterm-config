@@ -27,6 +27,9 @@ config.window_background_opacity = 0.8
 -- Adjust Window Size when changing font size
 config.adjust_window_size_when_changing_font_size = false
 
+-- Leader Key
+config.leader = { key = "'", mods = "ALT" }
+
 -- Key Mappings
 config.keys = require("mappings")
 
