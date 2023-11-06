@@ -11,5 +11,6 @@ config.default_workspace = "koralle"
 
 -- Tab Bar
 config.tab_bar_at_bottom = true
+config.hide_tab_bar_if_only_one_tab = true
 
 return config
