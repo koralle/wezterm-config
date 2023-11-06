@@ -14,7 +14,7 @@ config.tab_bar_at_bottom = true
 config.hide_tab_bar_if_only_one_tab = true
 
 -- Colorscheme
-config.color_scheme = "tokyonight_storm"
+config.color_scheme = "Everforest Dark (Gogh)"
 
 -- Font
 config.font = wezterm.font("Cica")
