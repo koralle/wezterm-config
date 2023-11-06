@@ -18,4 +18,7 @@ config.font = wezterm.font("Cica")
 config.font_size = 14.0
 config.use_ime = true
 
+-- Window Background Opacity
+config.window_background_opacity = 0.8
+
 return config
