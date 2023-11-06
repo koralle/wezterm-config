@@ -33,4 +33,7 @@ config.leader = { key = "'", mods = "ALT" }
 -- Key Mappings
 config.keys = require("mappings")
 
+-- default prog
+config.default_prog = { "C:\\Program Files\\PowerShell\\7\\pwsh.exe", "-noExit", "-Command", '"chcp 65001"' }
+
 return config
