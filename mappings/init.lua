@@ -24,4 +24,18 @@ table.insert(mappings, {
   action = act.DecreaseFontSize,
 })
 
+-- Increase Font Size
+table.insert(mappings, {
+  key = "=",
+  mods = "CTRL",
+  action = act.IncreaseFontSize,
+})
+
+-- Decrease Font Size
+table.insert(mappings, {
+  key = "-",
+  mods = "CTRL",
+  action = act.DecreaseFontSize,
+})
+
 return mappings
