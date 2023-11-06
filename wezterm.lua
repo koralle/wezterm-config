@@ -9,4 +9,7 @@ end
 -- default workspace
 config.default_workspace = "koralle"
 
+-- Tab Bar
+config.tab_bar_at_bottom = true
+
 return config
